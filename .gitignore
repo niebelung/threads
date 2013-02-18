@@ -18,9 +18,7 @@
 
 #project files
 *.kdev4
-
-#locks
-*.lock
+*.kdev4.lock
 
 #kdevelop tmp
 *~
