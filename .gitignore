@@ -15,3 +15,12 @@
 *.exe
 *.out
 *.app
+
+#project files
+*.kdev4
+
+#locks
+*.lock
+
+#kdevelop tmp
+*~
