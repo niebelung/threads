@@ -1,4 +1,4 @@
-#include "lib_threads.h"
+#include "lib_workers.h"
 
 void *printThreadName(void * ptr);
 
@@ -7,14 +7,9 @@ int main()
 {
     int i;
 
-    for(i = 0; i < MAX_THREADS; ++i)
+    for(i = 0; i < LIB_WORKERS_MAX_WORKERS; ++i)
     {
-        lib_threads_thread_t thr;
-        thr.func = printThreadName;
         
-        libThreads_ThreadInit(&thr);
-
-        libThreads_ThreadStart(&thr);
 
     } 
     
